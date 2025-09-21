@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node . --trace-warnings",
+    "dev": "node src/dev.js",
+    "build": "echo \"No build step required for this Node.js bot\"",
+    "run": "npm start",
     "add-dev": "node src/dev.js"
   },
   "keywords": [
